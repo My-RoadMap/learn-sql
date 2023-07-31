@@ -1,0 +1,18 @@
+/* Write a query to add the below mentioned employee details to the EMPLOYEE table.
+Employee id: 06, Employee Name: Brandon Kim, Department: Operations
+*/
+insert into employee (Employee_id ,Employee_Name  ,Department ) Values(6, 'Brandon Kim', 'Operations');
+
+
+Output
+
+┌─────────────┬────────────────┬────────────┐
+│ Employee_id │ Employee_Name  │ Department │
+├─────────────┼────────────────┼────────────┤
+│ 1           │ Kayla Thompson │ Sales      │
+│ 2           │ Ethan Chen     │ Operations │
+│ 3           │ Julia Lee      │ Hr         │
+│ 4           │ Marcus Garcia  │ Product    │
+│ 5           │ Samantha Park  │ Operations │
+│ 6           │ Brandon Kim    │ Operations │
+└─────────────┴────────────────┴────────────┘
